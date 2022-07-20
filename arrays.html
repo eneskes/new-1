@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="div1"></div>
+    <script>
+       var sayı= [11,33,4,55,6,77,9];
+       var yazı = "";
+       function yazdir(value,index,array){
+       yazı=yazı + value + "<br>";
+
+         }
+         sayı.forEach(yazdir);
+         document.getElementById("div1").innerHTML= yazı;
+
+    </script>
+</body>
+</html>
